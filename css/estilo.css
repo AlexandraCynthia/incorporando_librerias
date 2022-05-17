@@ -1,0 +1,37 @@
+#cargando {
+    display:none;
+}
+
+h1 {
+    color:  blue;
+}
+
+
+.navbar{
+    background-color: #dc3545;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card.hidden{
+    transition: .3s;
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}
+
+input{
+  background-color: #def;
+}
+
+.content-class{
+    padding: 0 20px !important;  
+
+
+}
